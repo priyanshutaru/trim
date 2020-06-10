@@ -1,7 +1,19 @@
+import { renderLandingPage } from "./renderLandingPage";
+import { aboutPage } from "./aboutPage";
+import {
+  validateOwnDomain,
+  urlAlreadyTrimmedByUser,
+  stripUrl,
+  customUrlExists,
+  passwordMatches,
+} from "./validateUrl";
 
-import { validateCookie } from './validateCookie';
-import { renderLandingPage } from './renderLandingPage';
-import{ aboutPage } from './aboutPage';
-import { validateOwnDomain, urlAlreadyTrimmedByUser, stripUrl, customUrlExists } from './validateUrl';
-
-export { renderLandingPage, aboutPage, validateOwnDomain, validateCookie, urlAlreadyTrimmedByUser, stripUrl, customUrlExists };
+export {
+  renderLandingPage,
+  aboutPage,
+  validateOwnDomain,
+  urlAlreadyTrimmedByUser,
+  stripUrl,
+  customUrlExists,
+  passwordMatches,
+};

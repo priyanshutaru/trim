@@ -30,17 +30,17 @@
               <form class="trim-url-form" style="margin: 0 auto;">
                 <div class="mb-3">
                   <div class="toggle-radio">
-                    <input type="radio" name="rdo" id="simple" checked>
-                    <input type="radio" name="rdo" id="advance">
+                    <!-- <input type="radio" name="rdo" id="simple" checked> -->
+                    <input type="radio" name="rdo" id="advance" checked>
                     <div class="switch">
-                      <label for="simple">Simple</label>
+                      <!-- <label for="simple">Simple</label> -->
                       <label for="advance">Advance</label>
                       <span></span>
                     </div>
                   </div>
                 </div>
                 <div id="form-type" class="form-type">
-                  <div id="simple-form">
+                  <!-- <div id="simple-form">
                     <div class="input-group mb-2">
                       <input type="text" class="form-control form-control-lg" name="long_url" required />
                       <input type="hidden" name="created_by" value="<%=created_by%>">
@@ -48,7 +48,7 @@
                         <button type="submit" onclick="closeAlert()" class="btn btn-success custom-btn"><i class="fas fa-cut fa-lg" style="width: 30px;"></i></button>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <div id="advance-form">
                     <div class="input-groupp mb-2">
                       <input type="hidden" id="created_by " name="created_by" value="<%=created_by%>">
@@ -56,6 +56,9 @@
                     </div>
                     <div class="input-groupp mb-2">
                       <input type="text" class="form-control form-control-lg" id="custom_url" name="custom_url" placeholder="Custom URL">
+                    </div>
+                    <div class="input-groupp mb-2">
+                      <input type="text" class="form-control form-control-lg" id="password" name="password" placeholder="Password">
                     </div>
                     <div class="input-groupp mb-2">
                       <input id="expiry_date" name="expiry_date" class="form-control form-control-lg" type="text" max="9999-12-31" placeholder="Expiry Date " onfocusin="(this.type='date')" onfocusout="(this.type='text') ">
