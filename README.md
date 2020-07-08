@@ -1,9 +1,6 @@
 # Trim
 <hr>
 
-<img src='https://res.cloudinary.com/gabicle/image/upload/v1570616642/ion-cut-outline_qg8jga.png'>
-
-
 The Trim Link Shortener and Sharing Tool is what identify and engage your audience.
 
 Not just a link shortener but branded and can track engagements.
