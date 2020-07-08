@@ -24,8 +24,8 @@ Not just a link shortener but branded and can track engagements.
 
  ### Installation
  
- 1. Clone this repository by running this on your terminal: `git clone https://github.com/hngi/node-url-shortener.git`
- 2. Navigate to the project's directory with: `cd node-url-shortener`
+ 1. Clone this repository by running this on your terminal: `git clone https://github.com/codeforcauseorg/trim.git`
+ 2. Navigate to the project's directory with: `cd trim`
  3. Run `npm install` to install dependencies
  4. You will need to connect to the database using the `.env.example`
  5. Run  `npm run start-dev` to start the server on a local host
@@ -43,6 +43,4 @@ Tests are written with mocha, chai-http and chai.
 
 ISC License
 
-### API Documentation
-    https://trim.ng/docs
     
