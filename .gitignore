@@ -8,3 +8,5 @@ npm-debug.log
 .idea/
 .jshintrc
 .log/
+
+.DS_Store
